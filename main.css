@@ -3,36 +3,40 @@ body {
 }
 
 div {
-    width: 22rem;
+    width: 20rem;
     margin: auto;
     margin-top: 5%;
-    padding: 1rem;
+    padding: 0.8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: darkseagreen;
     text-align: center;
-    border: 0.15rem dotted black;
+    border: 0.10rem dotted black;
 }
 
 h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 0.8rem;
 }
 
 input {
     display: inline-block;
-    font-size: 2rem;
-    width: 9.375rem;
+    font-size: 1.5rem;
+    width: 7.5rem;
     text-align: center;
     border: 0.1rem solid black;
-    border-radius: 0.5rem;
+    border-radius: 0.4rem;
 }
 
 button {
     background-color: rgb(121, 156, 121);
     border: 0.1rem solid black;
-    border-radius: 0.5rem;
-    font-size: 2rem;
-    width: 9.375rem;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    width: 7.5rem;
     cursor: pointer;
 }
 

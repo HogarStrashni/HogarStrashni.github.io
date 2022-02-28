@@ -47,7 +47,7 @@ function igrajIgricu(){
         button.removeEventListener("click", hendlerDugme, false);
         window.removeEventListener("keydown", hendlerEnter, false);
         input.parentNode.removeChild(input);
-        button.style.width = "19.375rem";
+        button.style.width = "15.5rem";
         button.innerHTML = "IGRAJMO SE OPET";
         button.addEventListener("click", hendlerOpet, false);
         window.addEventListener("keydown", hendlerOpet, false);
@@ -92,7 +92,7 @@ function krajIgrice() {
         button.removeEventListener("click", hendlerDugme, false);
         window.removeEventListener("keydown", hendlerEnter, false);
         input.parentNode.removeChild(input);
-        button.style.width = "19.375rem";
+        button.style.width = "15.5rem";
         button.innerHTML = "IGRAJMO SE OPET";
         button.addEventListener("click", hendlerOpet, false);
         window.addEventListener("keydown", hendlerOpet, false);

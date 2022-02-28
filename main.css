@@ -1,0 +1,41 @@
+body {
+    background-color: darkseagreen;
+}
+
+div {
+    width: 400px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkseagreen;
+    text-align: center;
+    border: 2px dotted black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+input {
+    display: inline-block;
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+button {
+    background-color: rgb(121, 156, 121);
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 2rem;
+    width: 150px;
+    cursor: pointer;
+}
+
+#output {
+    text-align: center; 
+}
